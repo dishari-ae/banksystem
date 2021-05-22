@@ -1,0 +1,26 @@
+img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .Home {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    overflow-y: hidden;
+    scroll-snap-stop: always;
+  }
+  .firstline {
+    color: rgb(239, 245, 238); 
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    font-weight: 600;
+    font-size: 72px;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  }
